@@ -1,12 +1,19 @@
-import {MyComponent} from './components/MyComponent'
+import MainNavBar from "./components/navBar/NavBar";
+import ItemListContainer from "./components/itemListContainer/ItemListContainer";
 
 function App() {
   return (
-    <div>
-      <MyComponent/>
-    </div>
+    <body>
+      <header>
+        <div className="mainNavbar">
+        <MainNavBar cartCount={10} />
+        </div>
+      </header>
+      <main>
+      <ItemListContainer message="Earn For Your Shota"/>
+      </main>
+
+    </body>
   );
 }
-
-//comentatrio borrar
 export default App;
