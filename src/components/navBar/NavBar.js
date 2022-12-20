@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function MainNavBar({ cartCount }) {
   return (
-    <Navbar bg="light" expand="sm">
+    <Navbar bg="light" expand="md">
       <Container>
         <div className="mainNavBar">
           <Navbar.Brand href="#home">
@@ -19,6 +19,7 @@ function MainNavBar({ cartCount }) {
               className="d-inline-block align-top logo"
             />{" "}
           </Navbar.Brand>
+
           <div className="simpleNavBar">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

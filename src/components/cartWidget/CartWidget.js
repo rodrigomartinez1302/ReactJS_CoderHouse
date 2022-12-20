@@ -4,7 +4,7 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 function CartWidget({ cartCount }) {
   return (
     <Badge className="cart" color="secondary" badgeContent={cartCount}>
-      <ShoppingCartIcon />
+      <ShoppingCartIcon fontSize="large"/>
     </Badge>
   );
 }
