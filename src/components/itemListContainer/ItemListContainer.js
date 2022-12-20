@@ -1,7 +1,7 @@
 import { Typography } from "@material-ui/core";
-import "./ItemListContainer.css"
+import "./ItemListContainer.css";
 
-function ItemListContainer(props ) {
+function ItemListContainer(props) {
   return (
     <Typography className="slogan" variant="h3" color="initial">
       {props.message}

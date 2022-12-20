@@ -2,9 +2,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Container } from "@material-ui/core";
 import CartWidget from "../cartWidget/CartWidget";
-import './NavBar.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "./NavBar.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function MainNavBar({ cartCount }) {
   return (
@@ -32,8 +31,7 @@ function MainNavBar({ cartCount }) {
               </Nav>
             </Navbar.Collapse>
           </div>
-          <CartWidget cartCount={cartCount}>
-          </CartWidget>
+          <CartWidget cartCount={cartCount}></CartWidget>
         </div>
       </Container>
     </Navbar>
