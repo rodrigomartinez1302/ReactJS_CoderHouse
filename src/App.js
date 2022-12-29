@@ -3,16 +3,14 @@ import ItemListContainer from "./components/itemListContainer/ItemListContainer"
 
 function App() {
   return (
-    <body>
+    <div>
       <header>
-        <div className="mainNavbar">
           <MainNavBar cartCount={10} />
-        </div>
       </header>
       <main>
         <ItemListContainer message="Earn For Your Shots" />
       </main>
-    </body>
+    </div>
   );
 }
 export default App;

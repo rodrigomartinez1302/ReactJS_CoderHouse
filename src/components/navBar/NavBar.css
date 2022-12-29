@@ -12,26 +12,28 @@
     text-decoration: none;
 }
 
-.basicNavBar {
+.simpleNavBar {
     padding: 10px;
-    grid-area: basicNavBar;
+    grid-area: simpleNavBar;
 }
 
 .logo {
     margin: 10px;
-    grid-area: log;
+    grid-area: logo;
 }
 
 .cart {
     margin: 10px;
     grid-area: cart;
+    justify-self: end;
 }
 
 .mainNavBar {
     margin: 10px;
-    font-size: 20px;
+    font-size: 25px;
     display: grid;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    grid-template-areas: "logo basicNavBar basicNavBar cart";
+    grid-template-areas: "logo simpleNavBar cart";
+    grid-template-columns: 1fr 10fr 1fr;
 }
